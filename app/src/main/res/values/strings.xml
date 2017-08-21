@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SelectorDemo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="album_name">xaidworkz_camera</string>
+    <string name="selection_label">Click on menu icons below to launch selection app or click here to launch IMAGE Selection</string>
+</resources>
