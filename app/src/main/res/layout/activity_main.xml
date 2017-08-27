@@ -28,6 +28,49 @@
             android:padding="@dimen/base_padding"
             android:text="@string/selection_label" />
 
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="8dp"
+                    android:layout_toEndOf="@+id/ivPic"
+                    android:layout_toRightOf="@+id/ivPic"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/tvMobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tvName"
+                    android:layout_alignStart="@+id/tvName"
+                    android:layout_below="@+id/tvName"
+                    android:text="TextView" />
+
+                <ImageView
+                    android:id="@+id/ivPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
         <ImageView
             android:id="@+id/ivSelection"
             android:layout_width="match_parent"
